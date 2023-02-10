@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            color: black;
+            background-color: bisque;
+            font-size: 72px;
+            text-align: center;
+            display: none;
+        }
+        @media (max-width:300px){
+            #Box-1{
+                display: block;
+                background-color: cadetblue;
+            }
+        }
+         @media (min-width:300px) and (max-width:500px){
+            #Box-2{
+                display: block;
+                background-color: cadetblue;
+            }
+        }
+         @media (min-width:500px) and (max-width:800px){
+            #Box-3{
+                display: block;
+                background-color: cadetblue;
+            }
+        }
+         @media (min-width:800px){
+            #Box-4{
+                display: block;
+                background-color: cadetblue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="Box-1">iphone</div>
+    <div class="box" id="Box-2">tablet</div>
+    <div class="box" id="Box-3">conputer</div>
+    <div class="box" id="Box-4">laptop</div>
+    
+</body>
+</html>
